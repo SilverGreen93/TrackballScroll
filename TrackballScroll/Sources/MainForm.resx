@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,71 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TextButtonAbout" xml:space="preserve">
-    <value>About TrackballScroll</value>
-  </data>
-  <data name="TextButtonExit" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="TextButtonHookEnabled" xml:space="preserve">
-    <value>Enabled</value>
-  </data>
-  <data name="TextButtonPreferAxis" xml:space="preserve">
-    <value>Prefer one axis movement</value>
-  </data>
-  <data name="TextTitle" xml:space="preserve">
-    <value>TrackballScroll Extended</value>
-  </data>
-  <data name="TextButtonHookUseforScroll" xml:space="preserve">
-    <value>Scroll key</value>
-  </data>
-  <data name="TextButtonReverseVerticalScroll" xml:space="preserve">
-    <value>Reverse verticall movement</value>
-  </data>
-  <data name="TextButtonReverseHorizontalScroll" xml:space="preserve">
-    <value>Reverse horizontal movement</value>
-  </data>
-  <data name="TextButtonHookUseforMiddle" xml:space="preserve">
-    <value>Middle-click</value>
-  </data>
-  <data name="TextButtonActionDefault" xml:space="preserve">
-    <value>Default action (back, forward)</value>
-  </data>
-  <data name="TextButtonActionMiddle" xml:space="preserve">
-    <value>Middle-click</value>
-  </data>
-  <data name="TextButtonActionNone" xml:space="preserve">
-    <value>Hold to scroll</value>
-  </data>
-  <data name="TextButtonActionToggle" xml:space="preserve">
-    <value>Toggle scrolling</value>
-  </data>
-  <data name="TextButtonHookUseforDefault" xml:space="preserve">
-    <value>Default action (back, forward)</value>
-  </data>
-  <data name="TextButtonScrollAction" xml:space="preserve">
-    <value>Scroll key secondary action</value>
-  </data>
-  <data name="TextButtonScrollSpeed" xml:space="preserve">
-    <value>Scroll speed</value>
-  </data>
-  <data name="TextButtonSpeedHigh" xml:space="preserve">
-    <value>High</value>
-  </data>
-  <data name="TextButtonSpeedLow" xml:space="preserve">
-    <value>Low</value>
-  </data>
-  <data name="TextButtonSpeedMedium" xml:space="preserve">
-    <value>Medium</value>
-  </data>
-  <data name="TextButtonX1Action" xml:space="preserve">
-    <value>X1 button action</value>
-  </data>
-  <data name="TextButtonX2Action" xml:space="preserve">
-    <value>X2 button action</value>
-  </data>
 </root>

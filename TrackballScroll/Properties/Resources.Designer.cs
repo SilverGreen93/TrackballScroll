@@ -19,7 +19,7 @@ namespace TrackballScroll.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -80,11 +80,38 @@ namespace TrackballScroll.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Emulate middle button when not scrolling.
+        ///   Looks up a localized string similar to Default action (back, forward).
         /// </summary>
-        internal static string TextButtonEmulateMiddleButton {
+        internal static string TextButtonActionDefault {
             get {
-                return ResourceManager.GetString("TextButtonEmulateMiddleButton", resourceCulture);
+                return ResourceManager.GetString("TextButtonActionDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Middle-click.
+        /// </summary>
+        internal static string TextButtonActionMiddle {
+            get {
+                return ResourceManager.GetString("TextButtonActionMiddle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hold to scroll.
+        /// </summary>
+        internal static string TextButtonActionNone {
+            get {
+                return ResourceManager.GetString("TextButtonActionNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle scrolling.
+        /// </summary>
+        internal static string TextButtonActionToggle {
+            get {
+                return ResourceManager.GetString("TextButtonActionToggle", resourceCulture);
             }
         }
         
@@ -98,16 +125,7 @@ namespace TrackballScroll.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Paused (click to resume).
-        /// </summary>
-        internal static string TextButtonHookDisabled {
-            get {
-                return ResourceManager.GetString("TextButtonHookDisabled", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enabled (click to pause).
+        ///   Looks up a localized string similar to Enabled.
         /// </summary>
         internal static string TextButtonHookEnabled {
             get {
@@ -116,38 +134,38 @@ namespace TrackballScroll.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use button X1.
+        ///   Looks up a localized string similar to Default action (back, forward).
         /// </summary>
-        internal static string TextButtonHookUseX1 {
+        internal static string TextButtonHookUseforDefault {
             get {
-                return ResourceManager.GetString("TextButtonHookUseX1", resourceCulture);
+                return ResourceManager.GetString("TextButtonHookUseforDefault", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Use button X2.
+        ///   Looks up a localized string similar to Middle-click.
         /// </summary>
-        internal static string TextButtonHookUseX2 {
+        internal static string TextButtonHookUseforMiddle {
             get {
-                return ResourceManager.GetString("TextButtonHookUseX2", resourceCulture);
+                return ResourceManager.GetString("TextButtonHookUseforMiddle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Prefer vertical/horizontal movement (disabled).
+        ///   Looks up a localized string similar to Scroll key.
         /// </summary>
-        internal static string TextButtonPreferAxisDisabled {
+        internal static string TextButtonHookUseforScroll {
             get {
-                return ResourceManager.GetString("TextButtonPreferAxisDisabled", resourceCulture);
+                return ResourceManager.GetString("TextButtonHookUseforScroll", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Prefer vertical/horizontal movement.
+        ///   Looks up a localized string similar to Prefer one axis movement.
         /// </summary>
-        internal static string TextButtonPreferAxisEnabled {
+        internal static string TextButtonPreferAxis {
             get {
-                return ResourceManager.GetString("TextButtonPreferAxisEnabled", resourceCulture);
+                return ResourceManager.GetString("TextButtonPreferAxis", resourceCulture);
             }
         }
         
@@ -170,24 +188,70 @@ namespace TrackballScroll.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TrackballScroll v6
-        ///Copyright (c) 2016-2018 Martin Seelge
-        ///Project URL: https://github.com/Seelge/TrackballScroll/
-        ///
-        ///Scroll with your trackball / mouse movement when holding down button X1 or X2 (typically buttons 3, 4).
-        ///See README.md for additional information.
-        ///
-        ///License: The MIT License
-        ///https://github.com/Seelge/TrackballScroll/blob/master/LICENSE.
+        ///   Looks up a localized string similar to Scroll key secondary action.
         /// </summary>
-        internal static string TextMessageBoxAbout {
+        internal static string TextButtonScrollAction {
             get {
-                return ResourceManager.GetString("TextMessageBoxAbout", resourceCulture);
+                return ResourceManager.GetString("TextButtonScrollAction", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TrackballScroll.
+        ///   Looks up a localized string similar to Scroll speed.
+        /// </summary>
+        internal static string TextButtonScrollSpeed {
+            get {
+                return ResourceManager.GetString("TextButtonScrollSpeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to High.
+        /// </summary>
+        internal static string TextButtonSpeedHigh {
+            get {
+                return ResourceManager.GetString("TextButtonSpeedHigh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Low.
+        /// </summary>
+        internal static string TextButtonSpeedLow {
+            get {
+                return ResourceManager.GetString("TextButtonSpeedLow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Medium.
+        /// </summary>
+        internal static string TextButtonSpeedMedium {
+            get {
+                return ResourceManager.GetString("TextButtonSpeedMedium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to X1 button action.
+        /// </summary>
+        internal static string TextButtonX1Action {
+            get {
+                return ResourceManager.GetString("TextButtonX1Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to X2 button action.
+        /// </summary>
+        internal static string TextButtonX2Action {
+            get {
+                return ResourceManager.GetString("TextButtonX2Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TrackballScroll Extended.
         /// </summary>
         internal static string TextTitle {
             get {

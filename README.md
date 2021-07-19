@@ -1,12 +1,15 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/4djs3rk5v8s4oqy0/branch/master?svg=true)](https://ci.appveyor.com/project/Seelge/trackballscroll/branch/master)
-
-TrackballScroll
-===============
+TrackballScroll Extended
+========================
 **Allow scrolling with a trackball without scroll wheel by using a low level mouse hook.**
 
-Changes the behaviour of one or both X-Buttons (typically buttons 3, 4) to
-- Scrolling, i.e. vertical/horizontal mouse wheel events, when an X-Button is pressed and the trackball is moved vertically/horizontally
-- Middle button click, when an X-Button is pressed and released without trackball movement
+This project is based on the work of Martin Seelge from https://github.com/Seelge/TrackballScroll
+
+Numerous improvements and enhancements have been made to the original TrackballScroll applications which include:
+
+- Select each X-Button action individually: scroll key, middle-click, default action (back, forward)
+- Change scroll speed independent of Windows settings: low, medium, high
+- Select scroll key secondary action when not scrolling: hold to scroll, toggle scrolling, default action (back, forward), middle-click
+- New About box
 
 ###### Requirements
 - A trackball or mouse with X-Buttons
@@ -15,7 +18,7 @@ Changes the behaviour of one or both X-Buttons (typically buttons 3, 4) to
 This software has been tested with a *Logitech Marble Trackball*(tm) and *Microsoft Windows 10*.
 
 ###### Download the latest release
-https://github.com/Seelge/TrackballScroll/releases/latest
+https://github.com/SilverGreen93/TrackballScroll/releases/latest
 
 ###### Run the program
 - Execute `TrackballScroll.exe`, no installation is necessary.
@@ -25,11 +28,12 @@ https://github.com/Seelge/TrackballScroll/releases/latest
 
 ###### Compile the source code
 - Clone the repository from the github page or download the latest source code archive
-- Open the solution with *Microsoft Visual Studio 2017*.
+- Open the solution with *Microsoft Visual Studio 2019*.
 - Change the build type to `Release`.
 - Build the solution
 
 ###### Version history
+- v7: Implement more options for handling different click types and options including speed control, secondary action, independent configuration; Fix About box lag.
 - v6 fixes #20: allows to reverse scrolling directions
 - v5 fixes #17 + improved stability (rewrite of the mouse hook, state machine and mouse event sending)
 - v4 prevents #16... sort of (middle clicks can be disabled if necessary using the tray menu).
